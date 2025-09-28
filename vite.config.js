@@ -6,4 +6,12 @@ export default defineConfig({
   ],
 
     base: '/MizumoWeb/',
+
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      input: './index.html'
+    }
+  }
 })
