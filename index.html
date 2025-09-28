@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce-project</title>
+  </head>
+  <body class="p-0 m-0 bg-[#1A1B3A] !font-sans">
+    <div class="flex justify-between bg-[#45469e] p-5 "> <!-- Navbar -->
+        
+        
+        <div class="flex gap-10"  ><!-- right side -->
+          <a href="" class="text-[#16C47F] font-bold !font-mono ml-1 mt-1 text-4xl hover:cursor-pointer" >
+            Mizu
+          </a>
+            <div class="flex justify-around mt-2 mr-0.5 gap-5.5 text-amber-100">
+            <a href="" class="text-[#A8FBD3] p-2 rounded-md hover:bg-[#31326F] transition-colors duration-300 ease-out">Products</a>
+            <a href="" class="text-[#A8FBD3] p-2 rounded-md hover:bg-[#31326F] transition-colors duration-300 ease-out">Categories</a>
+            <a href="" class="text-[#A8FBD3] p-2 rounded-md hover:bg-[#31326F] transition-colors duration-300 ease-out">Promos</a>
+  
+        </div>
+          <div class="relative flex items-center"><!-- center -->
+            <input  
+            type="text" 
+            name="query"
+            placeholder="Search..."
+            id="leftplaceholder"
+            autocomplete="off"
+            spellcheck="false"  
+              class="bg-[#636CCB] rounded-md border-[#636CCB] mt-1 pl-5 pr-6 pt-2 pb-2 w-5xl placeholder:text-[#A8FBD3] text-[#A8FBD3] outline-0 focus:ring-2 focus:ring-[#A8FBD3] transition-[box-shadow] duration-300 ease-in-out"/>
+            <button type="button" class="absolute right-2 top-[52%] -translate-y-1/2 text-[#A8FBD3] hover:text-[#31326F] hover:cursor-pointer"  onclick="document.querySelector('input').value=''">
+              ✕
+            </button>
+          </div>
+    </div>
+
+        <div class="flex justify-around gap-15"> <!-- Left Side -->
+
+            <a href="" class="text-[#A8FBD3] font-semibold rounded-md p-2 pr-  mt-1.5 bg-[#31326F] hover:cusror-pointer" id="Cart">
+              Cart    (0)
+            </a>
+
+            <a href="" id="loginbttn" class="bg-transparent mt-1.5 rounded-md p-2 text-[#A8FBD3] hover:cursor-pointer font-semibold hover:bg-[#31326F] transition-colors duration-300 ease-out">
+              Sign in
+            </a>
+        </div>
+
+  </div>  
+
+  <div class=""><!-- Hero Section -->
+      <div class="p-40 ml-80 mr-80 m-20 rounded-3xl bg bg-[#16C47F]">
+        
+      </div>
+  </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
